@@ -1,5 +1,7 @@
 # hook-kit
 
+[![ci](https://github.com/baizhi06/hook-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/baizhi06/hook-kit/actions/workflows/ci.yml)
+
 > 给「已经长歪的机器人插件」装四个接口：**接入 / 决策 / 上下文 / 回执**。
 > 零依赖、纯 ESM、Node 18+，配一张由代码生成的登记表（`HOOKS.md`）。
 
