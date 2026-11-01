@@ -1,0 +1,35 @@
+{
+  "name": "hook-kit",
+  "version": "0.1.0",
+  "description": "给长歪的机器人插件装四个接口：接入 / 决策 / 上下文 / 回执，配一张自动生成的登记表。",
+  "type": "module",
+  "main": "src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "src",
+    "docs",
+    "examples",
+    "verify.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/basic.test.mjs",
+    "verify": "node verify.mjs",
+    "doc": "node verify.mjs --write-doc"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "hooks",
+    "plugin",
+    "qq-bot",
+    "surfcore",
+    "dsh",
+    "extension-point"
+  ],
+  "license": "MIT"
+}
