@@ -1,3 +1,7 @@
+> **这个仓库已改名为 [four-point-hooks](https://github.com/baizhi06/four-point-hooks)。**
+> 新版把接口从五个收敛成四个（接入 / 决策 / 上下文 / 回执），并带上开关面板与基线检查。
+> 这里的 hook-kit 0.1.0 留作存档，不再更新。
+
 # hook-kit —— 把插件功能插在接口上，别散在主干里
 
 [!\[ci](https://github.com/baizhi06/hook-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/baizhi06/hook-kit/actions/workflows/ci.yml)
